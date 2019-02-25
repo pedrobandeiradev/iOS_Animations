@@ -1,0 +1,32 @@
+PODS:
+  - EmptyDataSet-Swift (4.2.0)
+  - Hero (1.4.0)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - EmptyDataSet-Swift (~> 4.2.0)
+  - Hero
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EmptyDataSet-Swift
+    - Hero
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: fafd0b2e8d4d46405bd86fa7ba84bb7f73a20b13
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  EmptyDataSet-Swift: 1fa0b35f530a35f852ecb2b53564728b0c300aaf
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: 2632e0760f783aeb296529085bce8977e9fcb718
+
+COCOAPODS: 1.6.0
