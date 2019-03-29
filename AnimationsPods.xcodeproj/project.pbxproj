@@ -73,12 +73,9 @@
 		642202BA222413140046B7CD /* AnimationsPods */ = {
 			isa = PBXGroup;
 			children = (
+				EBFCAA28224D9EA900EF6972 /* Controllers */,
+				EBFCAA27224D9E9C00EF6972 /* Views */,
 				642202BB222413150046B7CD /* AppDelegate.swift */,
-				642202BD222413150046B7CD /* ViewController.swift */,
-				6464E34B22241E780052B545 /* SecondViewController.swift */,
-				642C3D8C2224618100D2C180 /* CollectionViewCell.swift */,
-				642202BF222413150046B7CD /* Main.storyboard */,
-				642202C4222413170046B7CD /* LaunchScreen.storyboard */,
 				642202C7222413170046B7CD /* Info.plist */,
 				642202C2222413170046B7CD /* Assets.xcassets */,
 			);
@@ -92,6 +89,33 @@
 				2C1AB50A2AE2415F7FCAC008 /* Pods-AnimationsPods.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBFCAA27224D9E9C00EF6972 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBFCAA29224D9EC700EF6972 /* Storyboards */,
+				642C3D8C2224618100D2C180 /* CollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBFCAA28224D9EA900EF6972 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				642202BD222413150046B7CD /* ViewController.swift */,
+				6464E34B22241E780052B545 /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EBFCAA29224D9EC700EF6972 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				642202BF222413150046B7CD /* Main.storyboard */,
+				642202C4222413170046B7CD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,13 +393,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RHM63PV7ML;
+				DEVELOPMENT_TEAM = ZYC2MH8T3R;
 				INFOPLIST_FILE = AnimationsPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pedrocedro.AnimationsPods;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohbandeira.AnimationsPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,13 +412,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RHM63PV7ML;
+				DEVELOPMENT_TEAM = ZYC2MH8T3R;
 				INFOPLIST_FILE = AnimationsPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pedrocedro.AnimationsPods;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrohbandeira.AnimationsPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
